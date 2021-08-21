@@ -2,6 +2,8 @@
 
 vue mathjax for vue3
 
+[Demo](https://codesandbox.io/s/vue3-mathjax-demo-cyvd8)
+
 If you use vue 2, please check [vue-mathjax](https://github.com/justforuse/vue-mathjax)
 
 ## How to use
