@@ -28,7 +28,6 @@ export default defineComponent({
         });
 
         const renderContent = () => {
-            console.log(state.mathjaxRef);
             if (props.safe) {
                 state.mathjaxRef.textContent = props.formula;
             } else {
@@ -77,7 +76,6 @@ export default defineComponent({
         );
 
         onMounted(() => {
-            console.log("mounted");
             renderMathJax();
         });
 
