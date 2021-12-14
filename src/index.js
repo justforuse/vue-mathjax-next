@@ -1,4 +1,4 @@
-import VueMathjax from "./src/index.vue";
+import VueMathjax from "./index.vue";
 VueMathjax.install = function(Vue) {
   Vue.component(VueMathjax.name, VueMathjax);
 };

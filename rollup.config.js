@@ -7,7 +7,7 @@ import postcss from "rollup-plugin-postcss";
 module.exports = [
     {
         // entrance
-        input: "index.js",
+        input: "./src/index.js",
         // Export
         output: [{
             file: "lib/index.js",

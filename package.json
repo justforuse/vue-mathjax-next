@@ -1,7 +1,7 @@
 {
   "name": "vue-mathjax-next",
   "version": "0.0.2",
-  "description": "",
+  "description": "Mathjax plugin for Vue 3",
   "main": "./lib/index.js",
   "repository": {
     "type": "git",
@@ -10,8 +10,12 @@
   "scripts": {
     "build": "rollup -c"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["vue", "mathjax", "plugin"],
+  "author": "justforuse",
+  "files": [
+    "lib",
+    "src"
+  ],
   "license": "ISC",
   "devDependencies": {
     "@vue/compiler-sfc": "^3.2.4",
