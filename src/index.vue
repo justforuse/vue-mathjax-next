@@ -60,11 +60,13 @@ export default defineComponent({
                     },
                     ...props.options,
                 });
+                window.MathJax.Hub.Queue(["setRenderer", MathJax.Hub, "CommonHTML"]);
                 window.MathJax.Hub.Queue([
                     "Typeset",
                     window.MathJax.Hub,
                     state.mathjaxRef,
                 ]);
+                window.MathJax.Hub.Queue(["Rerender", window.MathJax.Hub]);
             }
         };
 
