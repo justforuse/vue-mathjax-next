@@ -65,6 +65,7 @@ export default defineComponent({
                     window.MathJax.Hub,
                     state.mathjaxRef,
                 ]);
+                window.MathJax.Hub.Queue(["Rerender", window.MathJax.Hub]);
             }
         };
 
