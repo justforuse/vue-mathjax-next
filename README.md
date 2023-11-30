@@ -1,5 +1,8 @@
 # vue-mathjax-next
 
+[![npm](https://img.shields.io/npm/v/vue-mathjax-next.svg) ![npm](https://img.shields.io/npm/dm/vue-mathjax-next.svg)](https://www.npmjs.com/package/vue-mathjax-next)
+[![vue3](https://img.shields.io/badge/vue-3.x-brightgreen.svg)](https://vuejs.org/)
+
 vue mathjax for vue3
 
 [Demo](https://codesandbox.io/s/vue3-mathjax-demo-cyvd8)
