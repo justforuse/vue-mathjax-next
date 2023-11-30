@@ -22,3 +22,9 @@ app.mount('#app')
 
 ## Options
 More options please check [vue-mathjax](https://github.com/justforuse/vue-mathjax), these have same options.
+
+## Demo
+
+::: preview
+demo-preview=./demos/demo1.vue
+:::
