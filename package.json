@@ -1,6 +1,6 @@
 {
   "name": "vue-mathjax-next",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "Mathjax plugin for Vue 3",
   "main": "./lib/index.js",
   "repository": {
